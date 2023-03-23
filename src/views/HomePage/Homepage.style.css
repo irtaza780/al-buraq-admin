@@ -1,0 +1,17 @@
+.homepage-btn {
+  border: 1px solid silver;
+  background-color: transparent;
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #f6c562;
+  font-weight: 500;
+}
+
+.homepage-btn:hover {
+  background-color: #f6c562;
+  border: 1px outset #f6c562;
+  color: #222529;
+  transition: background-color 0.2s ease-in, border 0.2s ease-in;
+}
