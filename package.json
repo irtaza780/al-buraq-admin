@@ -2,7 +2,7 @@
   "name": "frontned-al-buraq-press",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/orders",
+  "homepage": "https://al-buraq-admin.herokuapp.com",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -29,12 +29,14 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.1",
     "sass": "^1.56.1",
+    "serve": "^14.2.0",
     "typescript": "^4.9.3",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
